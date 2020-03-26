@@ -17,9 +17,15 @@
         <strong id="lenLabel">Password Length : </strong><input type="text" id="length" name="length" value="6" size="3">
     </form>
 
+    <div class="tooltip">
+    <button onclick="copyFunc()" onmouseout="copyDoneFunc()">
+        <span class="tooltiptext" id="copyTooltip">Copy to clipboard</span>
+        Copy it!
+    </button>
+    </div>
 
     <h3 id="welcome">EJAJ WELCOMES YOU</h3>
-    <p id="about">Create random passwords of your chosen length.<br>
+    <p id="about">Create random passwords with chosen length.<br>
     [ lowercases, uppercases, numbers, symbols ]</p>
 
     <script src="passGenScript.js"></script>

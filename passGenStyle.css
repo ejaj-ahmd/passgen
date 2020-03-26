@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    margin-top: 20vh;
+    margin-top: 10vh;
     color: white;
     text-align: center;
     min-height: 80vh;
@@ -17,19 +17,24 @@ body {
 }
 
 #heading {
-    margin-top: 20vh;
+    margin-top: 0vh;
+    /* border: solid 1px green; */
 }
 
 #welcome {
-    margin-top: 20vh;
+    margin-top: 22vh;
     text-decoration: ;
+    /* border: solid 1px green; */
+
 }
 
 #about {
     text-decoration: ;
-    max-width: 75%;
+    max-width: 85%;
     margin: 0 auto;
     margin-top: 20px;
+    /* border: solid 1px green; */
+
 }
 
 /* Form Elements */
@@ -38,6 +43,8 @@ body {
     margin: 0 auto;
     margin-top: 10vh;
     max-width: 500px;
+    /* border: solid 1px green; */
+
 }
 
 #output, #btn, #lenLabel, #length {
@@ -54,7 +61,6 @@ body {
     margin-bottom: 10px;
     width: 400px;
     padding: 10px 0;
-    
 }
 
 #btn {
@@ -76,6 +82,54 @@ body {
     border-radius: 10px;
 }
 
+/* Tooltip for Copy to clipboard */
 
+.tooltip {
+    position: relative;
+    /* display: inline-block; */
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 80px;
+    /* border: solid 1px green; */
+}
 
+.tooltip button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 1em;   
+}
 
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 130%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    /* border: solid 1px green; */
+
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
