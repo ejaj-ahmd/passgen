@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator | EJAJ</title>
+
+    <link rel="stylesheet" href="passGenStyle.css">
+</head>
+<body>
+    
+    <h1 id="heading">Random Password Generator</h1>
+    
+    <form action="" name="passGen" id="passGen">
+        <input type="text" size="20" name="output" id="output"><br>
+        <input type="button" id="btn" value="Create Password" onclick="generatePass()"><br><br>
+        <strong id="lenLabel">Password Length : </strong><input type="text" id="length" name="length" value="6" size="3">
+    </form>
+
+
+    <h3 id="welcome">EJAJ WELCOMES YOU</h3>
+    <p id="about">Create random passwords of your chosen length.<br>
+    [ lowercases, uppercases, numbers, symbols ]</p>
+
+    <script src="passGenScript.js"></script>
+</body>
+</html>

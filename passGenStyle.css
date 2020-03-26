@@ -1,0 +1,81 @@
+body {
+    margin: 0 auto;
+    margin-top: 20vh;
+    color: white;
+    text-align: center;
+    min-height: 80vh;
+    /* max-height: 800px; */
+    
+    background: rgba(173,0,3,1);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(173,0,3,1) 0%, rgba(173,0,3,1) 20%, rgba(143,0,2,1) 48%, rgba(107,0,2,1) 77%, rgba(107,0,2,1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(173,0,3,1)), color-stop(20%, rgba(173,0,3,1)), color-stop(48%, rgba(143,0,2,1)), color-stop(77%, rgba(107,0,2,1)), color-stop(100%, rgba(107,0,2,1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(173,0,3,1) 0%, rgba(173,0,3,1) 20%, rgba(143,0,2,1) 48%, rgba(107,0,2,1) 77%, rgba(107,0,2,1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(173,0,3,1) 0%, rgba(173,0,3,1) 20%, rgba(143,0,2,1) 48%, rgba(107,0,2,1) 77%, rgba(107,0,2,1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(173,0,3,1) 0%, rgba(173,0,3,1) 20%, rgba(143,0,2,1) 48%, rgba(107,0,2,1) 77%, rgba(107,0,2,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(173,0,3,1) 0%, rgba(173,0,3,1) 20%, rgba(143,0,2,1) 48%, rgba(107,0,2,1) 77%, rgba(107,0,2,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ad0003', endColorstr='#6b0002', GradientType=1 );
+}
+
+#heading {
+    margin-top: 20vh;
+}
+
+#welcome {
+    margin-top: 20vh;
+    text-decoration: ;
+}
+
+#about {
+    text-decoration: ;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/* Form Elements */
+
+#passGen {
+    margin: 0 auto;
+    margin-top: 10vh;
+    max-width: 500px;
+}
+
+#output, #btn, #lenLabel, #length {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#output, #btn {
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+#output {
+    margin-bottom: 10px;
+    width: 400px;
+    padding: 10px 0;
+    
+}
+
+#btn {
+    width: 220px;
+    padding: 7px 0;
+    border-radius: 7px;
+    background-color: #499bea;
+}
+
+#lenLabel {
+    float: left;
+    margin-left: 50px;
+}
+
+#length {
+    float: right;
+    margin-right: 50px;
+    width: 40px;
+    border-radius: 10px;
+}
+
+
+
+
