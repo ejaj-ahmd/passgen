@@ -5,6 +5,7 @@ body {
     text-align: center;
     min-height: 80vh;
     /* max-height: 800px; */
+    outline: none;
     
     background: rgba(173,0,3,1);
     background: -moz-radial-gradient(center, ellipse cover, rgba(173,0,3,1) 0%, rgba(173,0,3,1) 20%, rgba(143,0,2,1) 48%, rgba(107,0,2,1) 77%, rgba(107,0,2,1) 100%);
