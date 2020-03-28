@@ -16,7 +16,7 @@
         <input type="button" id="btn" value="Create Password" onclick="generatePass()"><br><br>
         <strong id="lenLabel">Password Length : </strong>
         <!-- <input type="text" id="length" name="length" value="6" size="3"> -->
-        <input type="number" name="length" id="length" min="6" max="20" value="6">
+        <input type="number" name="length" id="length" min="6" max="20" value="6" list="list">
     </form>
 
     <div class="tooltip">
@@ -29,6 +29,17 @@
     <h3 id="welcome">EJAJ WELCOMES YOU</h3>
     <p id="about">Create random passwords with chosen length.<br>
     [ lowercases, uppercases, numbers, symbols ]</p>
+
+    <datalist id="list">
+        <option value="6"></option>
+        <option value="8"></option>
+        <option value="10"></option>
+        <option value="12"></option>
+        <option value="14"></option>
+        <option value="16"></option>
+        <option value="18"></option>
+        <option value="20"></option>
+    </datalist>
 
     <script src="passGenScript.js"></script>
 </body>
