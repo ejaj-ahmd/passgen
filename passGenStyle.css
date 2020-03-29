@@ -81,9 +81,10 @@ body {
 #length {
     float: right;
     margin-right: 50px;
-    width: 70px;
+    width: 75px;
     border-radius: 8px;
     outline: none;
+    padding-left: 7px;
 }
 
 /* Tooltip for Copy to clipboard */
